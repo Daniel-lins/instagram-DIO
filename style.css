@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 60%;
+
+
+}
+
+.cellphone-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.cellphone-container img {
+    height: 50rem;
+}
+
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 34rem;
+
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.dois {
+    margin-top: -120px;
+}
+
+.img-logo {
+    height: 3rem;
+}
+
+.perfil-photo {
+    width: 6rem;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px
+}
+
+.remove-account {
+    color: #0095F6;
+    margin-top: 1rem;
+}
+
+.link-text {
+    color: #0095F6;
+}
+
+.container-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+
+.text {
+    color: rgb(160, 160, 160)
+}
