@@ -66,6 +66,7 @@ body {
 
 .img-logo {
     height: 3rem;
+
 }
 
 .perfil-photo {
@@ -73,6 +74,7 @@ body {
     display: flex;
     border-radius: 50%;
     overflow: hidden;
+    margin: 20px 0 20px
 }
 
 
@@ -120,4 +122,32 @@ body {
 
 .text {
     color: rgb(160, 160, 160)
+}
+
+@media (max-width: 1024px) {
+    .instagram-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-container {
+        width: 90%;
+    }
+
+    .cellphone-container {
+        display: none;
+    }
+
+    .second-container {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
 }
