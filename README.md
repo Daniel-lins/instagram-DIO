@@ -1,7 +1,7 @@
 # instagram DIO
 
 Você pode acessar o projeto pelo link abaixo 
-<a href="https://instagram-dio-omega.vercel.app/#"> Aqui </a>
+<a href="https://insta-dio-omega.vercel.app/"> Aqui </a>
 
 
 ## Sobre o projeto
